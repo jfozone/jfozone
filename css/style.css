@@ -1,0 +1,177 @@
+/**
+style.css
+Jean Fortin
+9 octobre 2018
+**/
+
+html,body { margin:0; height:100%;}
+
+.parallax1 { 
+    /* L’image du Parallax */
+    background-image: url("../medias/dessert2.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 100%; 
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax1 .row1{height:80%}
+
+.parallax1.row2{  height:20%}
+
+
+.parallax2 { 
+    /* L’image du Parallax */
+    background-image: url("../medias/plat1.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 300px; 
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax3 { 
+    /* L’image du Parallax */
+    background-image: url("../medias/entree1.jpg");
+
+    /* L’hauteur du Parallax */
+    height: 200px; 
+
+    /* Création de l’effet */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/**
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+.carousel-caption{
+	color: orange;
+	
+}
+.orange{
+	background-color: orange; 
+}
+
+ul.carousel-indicators {    
+	position: absolute;
+	bottom: 0;
+	margin: 20;
+	Left: 0;
+	right: 0;
+	width: auto;
+}
+ul.carousel-indicators li,ul.carousel-indicators li.active {
+	float: left;
+	width: 33%;
+	height: 10px;
+	margin: 0;
+	border-radius: 20;
+	border: 0;
+	background: transparent;
+}
+ul.carousel-indicators li.active {
+	background: orange;
+}
+
+hr{
+	padding-bottom:10px;
+	padding-top:10px;
+	max-width: 50px;
+	border-width: 3px;
+}
+.hr_white{
+	border-color: white;
+}
+.hr_orange{
+	border-color: orange;
+}
+.white_font{
+	color: white;
+
+}
+.icons{
+	color: orange;
+}
+.far{
+    color:orange;
+}
+.p_intro{
+	padding-bottom:10px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border-width: 3px;
+	
+}
+.btn_intro{
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-bottom:10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-width: 3px;
+	
+}
+.image1 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height: auto;
+    object-fit: fill;
+    background-color: orange;
+}
+
+
+*/
+
+
+
+
+
+
+/* 
+div{
+    border: 1px solid #ddd;
+
+}
+.red{
+	height: 100px;
+	background-color: red; 
+}
+
+.blue{
+	height: 100px;
+	background-color: blue; 
+}
+
+.green{
+	height: 100px;
+	background-color: green; 
+}
+
+.lime{
+	height: 100px;
+	background-color: lime; 
+}
+
+.yellow{
+	height: 100px;
+	background-color: yellow; 
+}
+
+.bottom{
+	height: 500px;
+}
+*/
