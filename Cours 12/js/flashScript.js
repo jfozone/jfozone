@@ -2,19 +2,24 @@
 
 //Déplacer Gauche
 $( "#boutonGauche" ).click(function() {
-		var	nombre = Number(prompt("Entrez le nombre "));
 
+	$("#flashID").css("padding-left","0px");
 });
 
 //Déplacer Droite
 $( "#boutonDroite" ).click(function() {
+	$("#flashID").css("padding-left","500px");
 	
 });
 
 //Changer image" 
 //Changez l'image de Flash1 à Flash 2 et vice-versa (une fois).
 $( "#boutonChangerImage" ).click(function() {
-	
+	var currentImg;
+
+	curentImg = $("#flashID").attr("src");
+	console.log(currentImg);
+
 });
 
 //Enlever l'image
