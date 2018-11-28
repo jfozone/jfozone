@@ -6,7 +6,11 @@
   <title>Flash</title>
 </head>
 <body>
-		<img id="flashID" class="flashClass" src="medias/flash.jpg" width="200px"/>
+	<div id=bloc1>
+		<div id="titre1"></div>
+		<div id="imgSpace">
+			<img id="flashID" class="flashClass" src="medias/flash.jpg" width="200px"/>
+		</div>
 		<br/>
 		<input type="button" value="Déplacer Gauche" id="boutonGauche"/> <br/>
 		<input type="button" value="Déplacer Droite" id="boutonDroite"/> <br/>
@@ -21,9 +25,12 @@
 		<input type="button" value="VitesseSupreme" id="boutonVitesseSupreme"/>Flash doit apparaître et disparaître toutes les 500MS pendant 5 secondes.<br />
 		<input type="button" value="Nuke" id="boutonNuke"/>Ce bouton fait afficher une image d'explosion dans l'écran et enlève tout le reste (boutons images, etc).
 		<br />
+		<div id="imgSpace2">
+			<img id="flashID2" class="flashClass" src="medias/flash.jpg" width="200px"/>
+		</div>
 		<!-- IMPORTATION DE JQUERY -->
 		<script src="js/jquery.js"></script>
 		<script src="js/flashScript.js"></script>
-		   
+	</div>
 </body>
 </html>
