@@ -19,6 +19,10 @@ $( "#boutonChangerImage" ).click(function() {
 
 	curentImg = $("#flashID").attr("src");
 	console.log(currentImg);
+	alert($("#flashID").attr("src"));
+	if (currentImg === "medias/flash.jpg"){
+			$("#flashID").attr("src","medias/flash2.jpg");
+	}
 
 });
 
