@@ -2,11 +2,11 @@
 $( "#userId" ).change(function() {
     console.log($('#userId').val());
     if (($('#userId').val() === "SLAY") || ($('#userId').val() === "Test")){
-        $('#alerteUserIdOK').hide();
+        $('#alerteUserIdOK').collapse();
         $('#alerteUserIdBAD').show();
     }
     else{
-        $('#alerteUserIdBAD').hide();
+        $('#alerteUserIdBAD').collapse();
         $('#alerteUserIdOK').show();
     }
 });
