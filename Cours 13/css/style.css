@@ -1,0 +1,19 @@
+/**
+style.css
+Jean Fortin
+4 dec 2018
+**/
+
+.titleCol1 {
+	height: 50px;
+	color: white;
+	text-align: center;
+	background-color: orange; 
+}
+h3{
+	text-align: center;
+}
+p{
+	text-align: center;
+}
+

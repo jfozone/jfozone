@@ -17,80 +17,80 @@
 	<div class="alert alert-danger collapse" role="alert" id="alerteEmail">
 		Votre email n'est pas valide
 	</div>
-	<!-- INPUT TEXT DE TYPE EMAIL -->
+	<!-- INPUT USER -->
 	<div class="form-group">
-		<label for="email">Email address</label>
-		<input type="email" class="form-control" id="email" placeholder="name@example.com">
+		<label for="userInfo">Nom d'usager</label>
+		<input type="text" class="form-control" id="userId" placeholder="Nom d'usager">
 	</div>
-
-	<!-- SELECT UNIQUE -->
-	<div class="form-group">
-		<label for="selectUnique">Example select</label>
-		<select class="form-control" id="selectUnique">
-			<option>1</option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5</option>
-		</select>
+	<div class="alert alert-danger collapse" role="alert" id="alerteUserIdBAD">
+		Mauvais nom d'usager
+	</div>
+	<div class="alert alert-success collapse" role="alert" id="alerteUserIdOK">
+		Usager OK
 	</div>
 	<div class="form-group">
-		<label for="exampleFormControlSelect2">Example multiple select</label>
-		<select multiple class="form-control" id="exampleFormControlSelect2">
-			<option>1</option>
-			<option>2</option>
-			<option>3</option>
-			<option>4</option>
-			<option>5</option>
-		</select>
+		<label for="userInfo">Mot de passe</label>
+		<input type="password" class="form-control" id="passwordId">
+	</div>
+	<div class="alert alert-danger collapse" role="alert" id="alertPassWeak">
+		Faible
+	</div>
+	<div class="alert alert-warning collapse" role="alert" id="alertPassMid">
+		Moyen
+	</div>
+	<div class="alert alert-success collapse" role="alert" id="alertPassStrong">
+		Fort
 	</div>
 	<div class="form-group">
-		<label for="exampleFormControlTextarea1">Example textarea</label>
-		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		<label for="userInfo">Confirmation du mot de passe</label>
+		<input type="password" class="form-control" id="passwordConfirm">
 	</div>
-
-	<div class="form-check">
-		<input class="form-check-input" type="checkbox" value="Oui" id="defaultCheck1">
-		<label class="form-check-label" for="defaultCheck1">
-			Default checkbox
-		</label>
-	</div>
-	<div class="form-check">
-		<input class="form-check-input" type="checkbox" value="Non" id="defaultCheck2">
-		<label class="form-check-label" for="defaultCheck2">
-			Disabled checkbox
-		</label>
+	<div class="form-group">
+		<label for="email">Email</label>
+		<input type="email" class="form-control" id="userEmail" placeholder="nom@comicon.com">
 	</div>
 
 	<div class="form-check">
-		<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
-		<label class="form-check-label" for="exampleRadios1">
-			Default radio
+		<input class="form-check-input" type="radio" name="costumeSelect" id="costumeSW" value="option1">
+		<label class="form-check-label" for="costumeSW">
+			Star wars
 		</label>
 	</div>
+	<div class= "d-none" id="detailsSW" >
+		Ici costume de StarWars
+		
+	</div>
 	<div class="form-check">
-		<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
-		<label class="form-check-label" for="exampleRadios2">
-			Second default radio
+		<input class="form-check-input" type="radio" name="costumeSelect" id="CostumeMarvel" value="option2">
+		<label class="form-check-label" for="CostumeMarvel">
+			Marvel
 		</label>
+	</div>
+	<div class= "d-none" id="detailsMarvel" >
+		Ici costume de Marvel
+		
 	</div>
 	<div class="form-check disabled">
-		<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
-		<label class="form-check-label" for="exampleRadios3">
-			Disabled radio
+		<input class="form-check-input" type="radio" name="costumeSelect" id="costumeDC" value="option3">
+		<label class="form-check-label" for="costumeDC">
+			DC Comic
 		</label>
+	</div>
+	<div class= "d-none" id="detailsDC" >
+		Ici costume de DC
+		
 	</div>
 
 
-	<button type="submit" class="btn btn-primary mb-2" id="boutonEnvoyer">Confirm identity</button>
+	<button type="submit" class="btn btn-primary mb-2" id="boutonEnvoyer">Confirmation</button>
 </form>
 
 
 <!-- IMPORTATION DE JQUERY -->
 <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
 <script src="../jsLib/jquery.js"></script>
-<script src="Bootstrap/js/bootstrap.js"></script>
+<script src="../bootstrap/js/bootstrap.js"></script>
 
-<script src="js/monScript.js"></script>
+<script src="js/registration.js"></script>
 </body>
 </html>
