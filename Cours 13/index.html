@@ -13,77 +13,90 @@
 </head>
 <body>
 
-<form>
-	<div class="alert alert-danger collapse" role="alert" id="alerteEmail">
-		Votre email n'est pas valide
-	</div>
-	<!-- INPUT USER -->
-	<div class="form-group">
-		<label for="userInfo">Nom d'usager</label>
-		<input type="text" class="form-control" id="userId" placeholder="Nom d'usager">
-	</div>
-	<div class="alert alert-danger collapse" role="alert" id="alerteUserIdBAD">
-		Mauvais nom d'usager
-	</div>
-	<div class="alert alert-success collapse" role="alert" id="alerteUserIdOK">
-		Usager OK
-	</div>
-	<div class="form-group">
-		<label for="userInfo">Mot de passe</label>
-		<input type="password" class="form-control" id="passwordId">
-	</div>
-	<div class="alert alert-danger collapse" role="alert" id="alertPassWeak">
-		Faible
-	</div>
-	<div class="alert alert-warning collapse" role="alert" id="alertPassMid">
-		Moyen
-	</div>
-	<div class="alert alert-success collapse" role="alert" id="alertPassStrong">
-		Fort
-	</div>
-	<div class="form-group">
-		<label for="userInfo">Confirmation du mot de passe</label>
-		<input type="password" class="form-control" id="passwordConfirm">
-	</div>
-	<div class="form-group">
-		<label for="email">Email</label>
-		<input type="email" class="form-control" id="userEmail" placeholder="nom@comicon.com">
-	</div>
+<!-- englober: class="container"><form></form></div> -->
+     <div class="container-fluid">
+ <!--       <div class="row">
+                <div class="col-lg-9 offset-lg-3 col-12 red"></div>
+                <div class="col-lg-3 col-6 lime"></div>
+            </div>             
+-->
+		<form>
+			<div class="alert alert-danger collapse" role="alert" id="alerteEmail">
+				Votre email n'est pas valide
+			</div>
+			<!-- INPUT USER -->
+			<div class="form-group">
+				<label for="userInfo">Nom d'usager</label>
+				<input type="text" class="form-control" id="userId" placeholder="Nom d'usager">
+			</div>
+			<div class="alert alert-danger collapse" role="alert" id="alerteUserIdBAD">
+				Mauvais nom d'usager
+			</div>
+			<div class="alert alert-success collapse" role="alert" id="alerteUserIdOK">
+				Usager OK
+			</div>
+			<div class="form-group">
+				<label for="userInfo">Mot de passe</label>
+				<input type="password" class="form-control" id="passwordId">
+			</div>
+			<div class="alert alert-danger collapse" role="alert" id="alertPassWeak">
+				Faible
+			</div>
+			<div class="alert alert-warning collapse" role="alert" id="alertPassMid">
+				Moyen
+			</div>
+			<div class="alert alert-success collapse" role="alert" id="alertPassStrong">
+				Fort
+			</div>
+			<div class="form-group">
+				<label for="userInfo">Confirmation du mot de passe</label>
+				<input type="password" class="form-control" id="passwordConfirm">
+			</div>
+			<div class="alert alert-danger collapse" role="alert" id="alertPwNoMatch">
+				Mot de passe différent
+			</div>
+			<div class="alert alert-success collapse" role="alert" id="alertPwMatch">
+				Mot de passe OK
+			</div>
+			<div class="form-group">
+				<label for="email">Email</label>
+				<input type="email" class="form-control" id="userEmail" placeholder="nom@comicon.com">
+			</div>
 
-	<div class="form-check">
-		<input class="form-check-input" type="radio" name="costumeSelect" id="costumeSW" value="option1">
-		<label class="form-check-label" for="costumeSW">
-			Star wars
-		</label>
-	</div>
-	<div class= "d-none" id="detailsSW" >
-		Ici costume de StarWars
-		
-	</div>
-	<div class="form-check">
-		<input class="form-check-input" type="radio" name="costumeSelect" id="CostumeMarvel" value="option2">
-		<label class="form-check-label" for="CostumeMarvel">
-			Marvel
-		</label>
-	</div>
-	<div class= "d-none" id="detailsMarvel" >
-		Ici costume de Marvel
-		
-	</div>
-	<div class="form-check disabled">
-		<input class="form-check-input" type="radio" name="costumeSelect" id="costumeDC" value="option3">
-		<label class="form-check-label" for="costumeDC">
-			DC Comic
-		</label>
-	</div>
-	<div class= "d-none" id="detailsDC" >
-		Ici costume de DC
-		
-	</div>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="costumeSelect" id="costumeSW" value="option1">
+				<label class="form-check-label" for="costumeSW">
+					Star wars
+				</label>
+			</div>
+			<div class= "d-none" id="detailsSW" >
+				Ici costume de StarWars
+				
+			</div>
+			<div class="form-check">
+				<input class="form-check-input" type="radio" name="costumeSelect" id="CostumeMarvel" value="option2">
+				<label class="form-check-label" for="CostumeMarvel">
+					Marvel
+				</label>
+			</div>
+			<div class= "d-none" id="detailsMarvel" >
+				Ici costume de Marvel
+				
+			</div>
+			<div class="form-check disabled">
+				<input class="form-check-input" type="radio" name="costumeSelect" id="costumeDC" value="option3">
+				<label class="form-check-label" for="costumeDC">
+					DC Comic
+				</label>
+			</div>
+			<div class= "d-none" id="detailsDC" >
+				Ici costume de DC
+				
+			</div>
 
 
-	<button type="submit" class="btn btn-primary mb-2" id="boutonEnvoyer">Confirmation</button>
-</form>
+			<button type="submit" class="btn btn-primary mb-2" id="boutonEnvoyer">Confirmation</button>
+		</form>
 
 
 <!-- IMPORTATION DE JQUERY -->
