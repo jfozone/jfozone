@@ -1,7 +1,8 @@
 // Script cours 27 novembre 2018
 
 var imgSpaceActive = 1;
-$("#imgSpace2").css("visibility","hidden");	
+//$("#imgSpace2").css("visibility","hidden");	
+$("#imgSpace2").hide();	
 
 //Déplacer Gauche
 $( "#boutonGauche" ).click(function() {

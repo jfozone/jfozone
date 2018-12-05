@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cours 13 </title>
+	<!-- LA LIGNE LA PLUS IMPORTANTE AU MONDE -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta charset="utf-8">
+	<!-- ORDRE EST IMPORTANT BOOTSTRAP AVANT NOTRE CSS -->
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+<form>
+	<div class="alert alert-danger collapse" role="alert" id="alerteEmail">
+		Votre email n'est pas valide
+	</div>
+	<!-- INPUT TEXT DE TYPE EMAIL -->
+	<div class="form-group">
+		<label for="email">Email address</label>
+		<input type="email" class="form-control" id="email" placeholder="name@example.com">
+	</div>
+
+	<!-- SELECT UNIQUE -->
+	<div class="form-group">
+		<label for="selectUnique">Example select</label>
+		<select class="form-control" id="selectUnique">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<label for="exampleFormControlSelect2">Example multiple select</label>
+		<select multiple class="form-control" id="exampleFormControlSelect2">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+		</select>
+	</div>
+	<div class="form-group">
+		<label for="exampleFormControlTextarea1">Example textarea</label>
+		<textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+	</div>
+
+	<div class="form-check">
+		<input class="form-check-input" type="checkbox" value="Oui" id="defaultCheck1">
+		<label class="form-check-label" for="defaultCheck1">
+			Default checkbox
+		</label>
+	</div>
+	<div class="form-check">
+		<input class="form-check-input" type="checkbox" value="Non" id="defaultCheck2">
+		<label class="form-check-label" for="defaultCheck2">
+			Disabled checkbox
+		</label>
+	</div>
+
+	<div class="form-check">
+		<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+		<label class="form-check-label" for="exampleRadios1">
+			Default radio
+		</label>
+	</div>
+	<div class="form-check">
+		<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+		<label class="form-check-label" for="exampleRadios2">
+			Second default radio
+		</label>
+	</div>
+	<div class="form-check disabled">
+		<input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" disabled>
+		<label class="form-check-label" for="exampleRadios3">
+			Disabled radio
+		</label>
+	</div>
+
+
+	<button type="submit" class="btn btn-primary mb-2" id="boutonEnvoyer">Confirm identity</button>
+</form>
+
+
+<!-- IMPORTATION DE JQUERY -->
+<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+<script src="../jsLib/jquery.js"></script>
+<script src="Bootstrap/js/bootstrap.js"></script>
+
+<script src="js/monScript.js"></script>
+</body>
+</html>
